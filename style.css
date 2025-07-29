@@ -204,8 +204,8 @@ box-sizing: border-box;
 
 .info-section{
     margin: 100px auto;
-    margin-bottom:70px;
-    width: 75%;
+    margin-bottom:85px;
+    width: 95%;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(coffeedi);
     background-position:center;
     background-size:cover;
