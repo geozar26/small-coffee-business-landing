@@ -251,7 +251,8 @@ box-sizing: border-box;
 
 
 .about{
-  margin-top: 20px;
+  margin-top: 80px;
+  background-color: #c4923e;
 }
  .main{
     width:80%;
@@ -268,7 +269,7 @@ box-sizing: border-box;
 }
 
 .about-text h1{
-    margin-top:27px;
+    margin-top:39px;
     text-transform: uppercase;
     font-size: 35px;
     color: blue;
@@ -276,7 +277,7 @@ box-sizing: border-box;
 }
 
 .main img{
-    margin-left: 16px;
+    margin-left: 24px;
     float:right;
     width:40%;
 }
@@ -384,28 +385,8 @@ footer{
 
 
 
-@media(max-width: 600px){
-         .container{
-        font-size: 5rem;
-      }
-
-      
-      .nav-bar_button{
-        font-size:1rem;
-      }
-
-}
-
-
-@media(max-width: 600px){
-      img{
-        max-width:100%;
-        height:auto;
-      }
-    }
-
 .testimonials{
-    width: 80%;
+    width: 100%;
     margin:auto;
     padding-top: 100px;
     text-align:center;
@@ -437,4 +418,88 @@ footer{
 .testimonial-col h3{
     margin-top: 15px;
     text-align: left;
+}
+
+.container-footer{
+     background-color: black;
+}
+
+.row{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+.footer-col ul{
+    list-style:none;
+}
+
+.footer-col h4{
+    color:white;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size:22px;
+    position:relative;
+}
+
+
+
+.footer-col ul li {
+    padding:10px 0;
+}
+
+.footer-col ul li a{
+   color:white;
+   text-align: center;
+   text-decoration: none;
+   font-size: 16px;
+   opacity: 0.7;
+   transition: 0.5s;
+}
+
+.footer-col input{
+    border:none;
+    width:250px;
+    height:45px;
+    display:block;
+    padding-right: 6px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 2%;
+}
+
+.footer-col .inputSubmit{
+    color:white;
+    font-weight:500;
+    padding: 0px 20px;
+    background-color: brown;
+    
+}
+
+.col p{
+    margin-top:17px;
+    padding-left:6px;
+    color:white;
+}
+
+.row hr{
+  opacity: 0.7;
+}
+
+.row .socialicons{
+    display:flex;
+    margin-top: 17px;
+    color: #fff;
+    font-size:10px;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+.row .socialicons i:hover{
+    color:#e91e64;
+}
+
+.right-section{
+    position:relative;
+    top:6px;
 }
