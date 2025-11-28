@@ -264,7 +264,7 @@ body{
     background-color:#a67c52;
     margin: 100px auto;
     width: 95%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(coffeedic.png);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/coffeedic.png);
     background-position:center;
     background-size:cover;
     border-radius: 10px;
@@ -508,6 +508,7 @@ footer{
     position:relative;
     top:6px;
 }
+
 
 
 
