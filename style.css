@@ -13,7 +13,7 @@ box-sizing: border-box;
          rgba(0, 0, 0, 0.848),
          rgba(0, 0, 0, 0.763)
     ),
-     url("coffe.background.png");
+     url("images/coffe.background.png");
     background-repeat:no-repeat;
     background-size:cover;
     background-attachment: fixed;
@@ -540,6 +540,7 @@ footer{
         display: inline-block;
     }
 }
+
 
 
 
